@@ -8,7 +8,7 @@ const router = express.Router();
 router
     .route("/tailwind")
     .get((req, res) => res.sendFile(("https://cdn.tailwindcss.com")))
-    .post((req, res) => res.send("POST ABOUT"));
+    .post((req, res) => res.send("https://cdn.tailwindcss.com"));
 // router
 //     .route("/auth")
 //     .get((req, res) => res.sendFile((process.cwd()+"/auth.html")))
@@ -16,6 +16,9 @@ router
 router
     .route("/Portfolio")
     .get((req, res) => res.sendFile(process.cwd()+"/styles/portfolio.css"))
-    .post((req, res) => res.send("POST ABOUT"));
+    .post((req, res) => res.send(process.cwd()+"/styles/portfolio.css"));
+router
+    .route("/Portfolio")
+    .get((req, res) => res.sendFile(process.cwd()+"/styles/portfolio.css"))
 
 module.exports = router;
