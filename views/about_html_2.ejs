@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="html2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Get Frontend</title>
+  </head>
+  <body>
+
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class="fa-solid fa-brain"></i>
+                <div class="logo_name">GetFrontend</div>
+
+            </div>
+            <h3>HTML</h3>
+        </div>
+        <ul class="nav_list">
+
+            <!-- main -->
+            <li>
+                <a href="index">
+                <i class="fa-solid fa-house"></i>
+                <span class="links_name">Introduction</span>
+                </a>
+                <span class="tooltip">Main</span>
+            </li>
+            <!-- create -->
+            <li>
+                <a href="about_html_2">
+                <i class="fa-solid fa-circle-plus"></i>
+                <span class="links_name">Structure HTML</span>
+                </a>
+                <span class="tooltip">Create</span>
+            </li>
+            <!-- update -->
+            <li>
+                <a href="update">
+                    <i class="fa-solid fa-file-pen"></i>
+                <span class="links_name">Elements</span>
+                </a>
+                <span class="tooltip">Update</span>
+            </li>
+            <!-- find -->
+            <li>
+                <a href="find">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="links_name">Attributes</span>
+                </a>
+                <span class="tooltip">Find</span>
+            </li>
+            <li>
+                <a href="results">
+                <i class="fa-solid fa-file-circle-check"></i>
+                <span class="links_name">Another</span>
+                </a>
+                <span class="tooltip">Result</span>
+            </li>
+                   
+            <!-- delete -->
+            <li>
+                <a href="delete">
+                    <i class="fa-solid fa-trash"></i>
+                <span class="links_name">Another</span>
+                </a>
+                <span class="tooltip">Delete</span>
+            </li> 
+        </ul>
+        
+    </div>
+
+    <div class="home_content">
+        <div id="main" class="container ">
+            <h1>Document and website structure</h1>
+            <p>In addition to defining individual parts of your page (such as "a paragraph" or "an image"), HTML also boasts a number of block level elements used to define areas of your website (such as "the header", "the navigation menu", "the main content column"). This article looks into how to plan a basic website structure, and write the HTML to represent this structure.</p>
+            
+            
+            <h2>Basic sections of a document</h2>
+                          
+            <dl>
+                <dt id="header">header:</dt>
+                <dd>
+                    <p>Usually a big strip across the top with a big heading, logo, and perhaps a tagline. This usually stays the same from one webpage to another.</p>
+                  </dd>
+                  <dt id="navigation_bar">navigation bar:</dt>
+                  <dd>
+                    <p>Links to the site's main sections; usually represented by menu buttons, links, or tabs. Like the header, this content usually remains consistent from one webpage to another — having inconsistent navigation on your website will just lead to confused, frustrated users. Many web designers consider the navigation bar to be part of the header rather than an individual component, but that's not a requirement; in fact, some also argue that having the two separate is better for <a href="/en-US/docs/Learn/Accessibility">accessibility</a>, as screen readers can read the two features better if they are separate.</p>
+                  </dd>
+                  <dt id="sidebar">sidebar:</dt>
+                  <dd>
+                    <p>Some peripheral info, links, quotes, ads, etc. Usually, this is contextual to what is contained in the main content (for example on a news article page, the sidebar might contain the author's bio, or links to related articles) but there are also cases where you'll find some recurring elements like a secondary navigation system.</p>
+                  </dd>
+                  <dt id="footer">footer:</dt>
+                  <dd>
+                    <p>A strip across the bottom of the page that generally contains fine print, copyright notices, or contact info. It's a place to put common information (like the header) but usually, that information is not critical or secondary to the website itself. The footer is also sometimes used for <a href="/en-US/docs/Glossary/SEO">SEO</a> purposes, by providing links for quick access to popular content.</p>
+                  </dd>
+                </dl>
+            
+            <div class="ads">
+                <h4>Looking to become a front-end web developer?</h4>
+                <p>We have put together a course that includes all the essential information you need to work towards your goal.</p>
+                <a href="delete">Get started</a>
+            </div>
+            <p>Webpages can and will look pretty different from one another, but they all tend to share similar standard components, unless the page is displaying a fullscreen video or game, is part of some kind of art project, or is just badly structured:</p>           
+
+
+            <p>A "typical website" could be structured something like this:</p>
+            <img class="img-fluid" src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure/sample-website.png" alt="">
+            <h2>HTML for structuring content</h2> <p class="end">The simple example shown above isn't pretty, but it is perfectly fine for illustrating a typical website layout example. Some websites have more columns, some are a lot more complex, but you get the idea. With the right CSS, you could use pretty much any elements to wrap around the different sections and get it looking how you wanted, but as discussed before, we need to respect semantics and use the right element for the right job.</p>
+            
+    </div>
+    </div>
+ 
+  </body>
+</html>
